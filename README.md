@@ -2,7 +2,9 @@
 
 A modern patient management dashboard built with React
 
-![HealthDash Interface](./screenshots/dashboard.png)
+![image](https://github.com/user-attachments/assets/33cff411-63be-4282-866c-f543bbb4aa5c)
+![image](https://github.com/user-attachments/assets/fccf73d3-cd9c-44ac-8d7c-5267651397d5)
+
 
 ## Project Overview
 
