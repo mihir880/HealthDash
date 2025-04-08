@@ -1,0 +1,146 @@
+/* src/components/Sidebar/Sidebar.css */
+.sidebar {
+  width: 360px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  /* height: calc(100vh - 64px); Adjust based on header height */
+  overflow-y: auto;
+  border-right: 1px solid #f0f0f0;
+  margin: 18px 0 0 18px;
+  height: 100vh;
+  border-radius: 16px;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sidebar-title {
+  font-weight: 800;
+  font-size: 24px;
+  color: #072635;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.search-button:hover {
+  background-color: #f6f6f6;
+}
+
+.patient-list {
+  list-style: none;
+  padding: 0;
+}
+
+.patient-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.patient-item:hover {
+  background-color: #f6f6f6;
+}
+
+.patient-item.active {
+  background-color: #D8FCF7;
+  border-left-color: #01F0D0;
+}
+
+.patient-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.patient-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.patient-avatar-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #705AAA;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.patient-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: #072635;
+}
+
+.patient-meta {
+  font-size: 12px;
+  color: #707070;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+.patient-item:hover .action-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.action-button:hover {
+  background-color: #ededed;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+  
+  .sidebar-header {
+    padding: 12px 16px;
+  }
+}

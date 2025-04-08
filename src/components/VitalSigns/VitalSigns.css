@@ -1,0 +1,70 @@
+/* src/components/VitalSigns/VitalSigns.css */
+.vital-signs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.vital-sign-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.vital-sign-card.respiratory {
+  background-color: #E0F3FA;
+  margin-left: 20px;
+  
+}
+
+.vital-sign-card.temperature {
+  background-color: #FFE6E9;
+}
+
+.vital-sign-card.heart-rate {
+  background-color: #FFE6F1;
+  margin-right: 20px;
+}
+
+.vital-sign-icon {
+  margin-bottom: 12px;
+}
+
+.vital-sign-title {
+  font-size: 14px;
+  /* color: #707070; */
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.vital-sign-value {
+  font-size: 30px;
+  font-weight: 800;
+  color: #072635;
+  margin-bottom: 4px;
+}
+
+.vital-sign-status {
+  font-size: 12px;
+}
+
+/* .status-normal {
+  color: #0BD984;
+} */
+
+/* .status-below {
+  color: #6C63FF;
+} */
+
+/* .status-above {
+  color: #FF6B6B;
+} */
+
+@media (max-width: 768px) {
+  .vital-signs-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

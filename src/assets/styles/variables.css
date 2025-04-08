@@ -1,0 +1,106 @@
+/* src/assets/styles/variables.css */
+
+:root {
+    /* Colors */
+    --purple-primary: #705AAA;
+    --purple-light: #CBC8D4;
+    --active-bg-2: #D8FCF7;
+    --active-bg-1: #01F0D0;
+    --success-green: #0BD984;
+    --dark-blue-900: #072635;
+    --dark-blue-800: #0C3D5D;
+    --dark-blue-700: #084C77;
+    --dark-blue-600: #055A92;
+    --dark-blue-500: #006AAC;
+    --dark-blue-400: #007BC7;
+    --gray-600: #707070;
+    --gray-300: #878787;
+    --gray-200: #EDEDED;
+    --gray-100: #F6F6F6;
+    --white: #FFFFFF;
+    --accent-orange: #FF6200;
+  
+    /* Typography */
+    --font-family: 'Manrope', sans-serif;
+    --font-weight-normal: normal;
+    --font-weight-bold: bold;
+    --font-weight-extra-bold: 800;
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-lg: 18px;
+    --font-size-xl: 24px;
+    --line-height-sm: 16px;
+    --line-height-md: 19px;
+    --line-height-lg: 24px;
+    --line-height-xl: 33px;
+    
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    
+    /* Border radius */
+    --border-radius-sm: 6px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 20px;
+    --border-radius-full: 50%;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Typography classes */
+  .card-title-24pt {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-extra-bold);
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
+    letter-spacing: 0;
+    color: var(--dark-blue-900);
+  }
+  
+  .inner-card-title-18pt {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+    letter-spacing: 0;
+    color: var(--dark-blue-900);
+    text-transform: titlecase;
+  }
+  
+  .body-emphasized-14pt {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    letter-spacing: 0;
+    color: var(--dark-blue-900);
+  }
+  
+  .body-secondary-info-14pt {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    letter-spacing: 0;
+    color: var(--gray-600);
+  }
+  
+  .body-regular-14 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    letter-spacing: 0;
+    color: var(--dark-blue-900);
+  }

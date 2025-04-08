@@ -1,0 +1,47 @@
+/* src/components/common/LoadingSpinner/LoadingSpinner.css */
+@import '../../../assets/styles/variables.css';
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 40px;
+}
+
+.spinner {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.spinner > div {
+  width: 12px;
+  height: 12px;
+  background-color: var(--active-bg-1);
+  border-radius: 50%;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  animation-delay: -0.16s;
+}
+
+.loading-text {
+  color: var(--gray-600);
+  font-size: var(--font-size-md);
+}
+
+@keyframes bounce {
+  0%, 80%, 100% { 
+    transform: scale(0);
+  } 
+  40% { 
+    transform: scale(1.0);
+  }
+}

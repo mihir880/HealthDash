@@ -1,0 +1,44 @@
+/* src/components/common/ErrorMessage/ErrorMessage.css */
+@import '../../../assets/styles/variables.css';
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 40px;
+}
+
+.error-icon {
+  margin-bottom: 16px;
+}
+
+.error-title {
+  font-size: 20px;
+  font-weight: var(--font-weight-extra-bold);
+  color: var(--dark-blue-900);
+  margin-bottom: 8px;
+}
+
+.error-message {
+  color: var(--gray-600);
+  margin-bottom: 24px;
+  max-width: 400px;
+}
+
+.retry-button {
+  background-color: var(--active-bg-1);
+  color: var(--dark-blue-900);
+  border: none;
+  border-radius: var(--border-radius-md);
+  padding: 12px 24px;
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.retry-button:hover {
+  background-color: #00DFC0; /* Slightly darker shade */
+}
