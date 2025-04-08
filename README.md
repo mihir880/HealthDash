@@ -2,8 +2,6 @@
 
 A modern patient management dashboard built with React
 
-![HealthDash Interface](./screenshots/dashboard.png)
-
 ## Project Overview
 
 HealthDash is a responsive medical dashboard interface designed to help healthcare professionals efficiently monitor and manage patient information. Built with React and modern CSS techniques, this dashboard presents critical patient data in an intuitive, visually organized interface.
@@ -49,7 +47,9 @@ The application follows a modular component architecture:
 ## Screenshots
 
 ### Desktop View
-![Desktop View](./screenshots/desktop.png)
+
+![image](https://github.com/user-attachments/assets/33cff411-63be-4282-866c-f543bbb4aa5c)
+![image](https://github.com/user-attachments/assets/fccf73d3-cd9c-44ac-8d7c-5267651397d5)
 
 
 ## Getting Started
@@ -66,3 +66,6 @@ npm install
 npm start
 # HealthDash
 MediDash-UI: Advanced Healthcare Dashboard Interface
+
+```
+This project was developed as part of the Coalition Technologies skills test, demonstrating front-end development capabilities and UI/UX design principles for healthcare applications.
