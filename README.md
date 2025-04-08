@@ -51,8 +51,6 @@ The application follows a modular component architecture:
 ### Desktop View
 ![Desktop View](./screenshots/desktop.png)
 
-### Mobile View
-![Mobile View](./screenshots/mobile.png)
 
 ## Getting Started
 
@@ -66,3 +64,5 @@ npm install
 
 # Start development server
 npm start
+# HealthDash
+MediDash-UI: Advanced Healthcare Dashboard Interface
