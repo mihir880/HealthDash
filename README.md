@@ -66,3 +66,6 @@ npm install
 npm start
 # HealthDash
 MediDash-UI: Advanced Healthcare Dashboard Interface
+
+```
+This project was developed as part of the Coalition Technologies skills test, demonstrating front-end development capabilities and UI/UX design principles for healthcare applications.
