@@ -12,31 +12,31 @@ const Header = () => {
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="overview" className="nav-link">
               <img src="/images/home.svg" alt="" className="nav-icon" />
               <span>Overview</span>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link active">
+            <a href="patients" className="nav-link active">
               <img src="/images/group.svg" alt="" className="nav-icon" />
               <span>Patients</span>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="schedule" className="nav-link">
               <img src="/images/calendar.svg" alt="" className="nav-icon" />
               <span>Schedule</span>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="message" className="nav-link">
               <img src="/images/chat.svg" alt="" className="nav-icon" />
               <span>Message</span>
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="transactions" className="nav-link">
               <img src="/images/credit_card.svg" alt="" className="nav-icon" />
               <span>Transactions</span>
             </a>
